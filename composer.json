@@ -1,0 +1,18 @@
+{
+    "name": "elegenceio/containers",
+    "description": "Core Container Package for lazarusphp FrameWork",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+        }
+    },
+    "authors": [
+        {
+            "name": "itzzpadre"
+        }
+    ],
+    "require": {
+        "psr/log": "^3.0",
+        "psr/container": "^2.0"
+    }
+}
