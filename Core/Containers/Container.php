@@ -7,7 +7,7 @@ use Exception;
 use ElegenceIO\Containers\Components\Resolver;
 use ElegenceIO\Containers\Components\Register;
 use ElegenceIO\Contracts\Containers\Makable;
-use ElegenceIO\Foundation\Compiler\AutoWirer;
+use ElegenceIO\Containers\AutoWirer;
 use ReflectionClass;
 
 class Container implements Makable
