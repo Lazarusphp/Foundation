@@ -1,0 +1,9 @@
+{
+    "name": "elegenceio/contracts",
+    "description": "Interface management for lazarusphp framework",
+    "autoload": {
+        "psr-4": {
+        }
+    },
+    "require": {}
+}
