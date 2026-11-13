@@ -14,14 +14,8 @@
     "autoload": {
         "psr-4": {
             "Console\\":"Console",
-            "ElegenceIO\\":"Core",
             "ElegenceIO\\Support\\":"Support",
-            "ELegenceIO\\Core\\":"Dev/Core",
-            "ElegenceIO\\SessionManager\\":"Dev/SessionManager/src",
-            "ElegenceIO\\Http\\":"Dev/Http/src",
-            "ElegenceIO\\Foundation\\":"Dev/Foundation/src",
-            "ElegenceIO\\Engine\\":"Dev/Engine/src",
-            "ElegenceIO\\Console\\":"Dev/Console"
+            "ElegenceIO\\":"Core"
 
         }
     },
