@@ -14,6 +14,7 @@
     "autoload": {
         "psr-4": {
             "Console\\":"Console",
+            "ElegenceIO\\Helpers\\":"Helpers",
             "ElegenceIO\\Support\\":"Support",
             "ElegenceIO\\":"Core"
 

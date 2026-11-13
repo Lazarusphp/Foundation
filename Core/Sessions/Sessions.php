@@ -1,16 +1,17 @@
 <?php
 
-namespace LazarusPhp\SessionManager;
+namespace ElegenceIO\Sessions;
+
+use ElegenceIO\Contracts\Sessions\SessionInterface;
 use Exception;
-use LazarusPhp\SessionManager\Interfaces\SessionInterface;
-use LazarusPhp\SessionManager\Writers\SessionWriter;
+use ElegenceIO\Sessions\Writers\SessionWriter;
 
 final class Sessions
 {
     private static object|null $instance = null;
     private array $locked = [];
     private array $config = [];
-    private SessionInterface|string|null $handle = null;
+    private ?InterfacesSessionInterface|string|null $handle = null;
     private static bool $init = false;
 
 

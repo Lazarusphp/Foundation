@@ -1,5 +1,5 @@
 <?php
-namespace LazarusPhp\SessionManager\Writers;
+namespace ElegenceIO\Sessions\Writers;
 
 use LazarusPhp\Database\Facades\DB;
 use LazarusPhp\QueryBuilder\QueryBuilder;
