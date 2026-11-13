@@ -1,0 +1,17 @@
+{
+    "name": "elegenceio/logger",
+    "description": "Psr-3 compliant Logger for Lazaraus framework",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+        }
+    },
+    "authors": [
+        {
+            "name": "itzzpadre"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+    }
+}
