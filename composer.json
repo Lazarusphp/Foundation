@@ -2,15 +2,6 @@
     "name": "lazarusphp/foundation",
     "description": "Foundation Structure for lazarusphp",
     "type": "project",
-    "require": {
-        "php": "^8.4",
-        "laminas/laminas-diactoros": "^3",
-        "phpmailer/phpmailer": "^6.2",
-        "miladrahimi/phprouter":"^5",
-        "psr/log": "^3.0",
-        "psr/container": "^2.0",
-        "vlucas/phpdotenv": "*"
-    },
     "autoload": {
         "psr-4": {
             "Console\\":"Console",
@@ -20,6 +11,16 @@
 
         }
     },
+    "require": {
+        "php": "^8.4",
+        "laminas/laminas-diactoros": "^3",
+        "phpmailer/phpmailer": "^6.2",
+        "miladrahimi/phprouter":"^5",
+        "psr/log": "^3.0",
+        "psr/container": "^2.0",
+        "vlucas/phpdotenv": "*"
+    },
+  
     "authors": [
         {
             "name": "itzzpadre"
